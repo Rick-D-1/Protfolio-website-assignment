@@ -1,0 +1,111 @@
+.open-sans-newfont {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Banner section */
+.banner-foccus-section {
+    background-image: url(../images/Hero-bg.png);
+    height: 698px;
+    padding-top: 30px;
+    margin-top: -110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.header nav h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: cornflowerblue;
+}
+
+.btn-signup {
+    background-color: cornflowerblue;
+    border-style: none;
+    padding: 3px 30px;
+    margin: 30px;
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-signup:hover {
+    background-color: blue;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+.banner-foccus-section div {
+    text-align: center;
+    font-size: 30px;
+}
+
+.focus-btn {
+    background-color: cornflowerblue;
+    border-style: none;
+    padding: 10px 30px;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+}
+
+.focus-btn:hover {
+    background-color: blue;
+}
+
+/* action box */
+.action-div h3 {
+    font-size: 25px;
+}
+
+.action-div p {
+    word-wrap: break-word;
+}
+
+.action-img {
+    height: 300px;
+
+    border-radius: 50px;
+
+}
+
+.btn-launch {
+    background-color: cornflowerblue;
+    border-style: none;
+    padding: 10px 30px;
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-launch:hover {
+    background-color: blue;
+}
+
+.action-box-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+
+}
