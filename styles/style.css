@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(232, 250, 250);
+    background-color: rgb(235, 240, 248);
 }
 
 /* Banner section */
@@ -129,9 +129,6 @@ body {
 
 }
 
-.productive-div h3 {}
-
-
 .join-div h1 {
     font-size: 50px;
     color: rgb(50, 73, 115);
@@ -154,6 +151,9 @@ body {
 }
 
 /* rating section */
+.rating-section {
+    margin-bottom: 80px;
+}
 
 .rating-div h1 {
     text-align: center;
@@ -197,4 +197,116 @@ body {
 .dp-name-div p {
     margin-top: -15px;
     color: rgb(147, 145, 145);
+}
+
+/* focus section */
+.focus-section {
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0px 100px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.focus-div {
+    text-align: center;
+}
+
+.focus-div h1 {
+    font-size: 40px;
+    margin-bottom: -5px;
+}
+
+.focus-div p {
+    color: rgb(114, 114, 114);
+}
+
+.focus-div button {
+    margin-top: -5px;
+}
+
+.focus-div img {
+    width: 100%;
+    border-radius: 35px;
+    padding-bottom: 20px;
+}
+
+/* Form section */
+.form-section {
+    display: flex;
+    justify-content: center;
+
+    margin: 0px 100px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+
+}
+
+.form-div {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    margin-top: 40px;
+}
+
+.h1-div {
+    font-size: 50px;
+    margin-right: 20px;
+    word-wrap: break-word;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.input {
+    border-radius: 4px;
+    height: 40px;
+    border: none;
+    border: 2px solid gray;
+    padding-left: 10px;
+
+}
+
+.textarea {
+    border-radius: 4px;
+    height: 100px;
+    border: none;
+    border: 2px solid gray;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.focus-btn-1 {
+    background-color: cornflowerblue;
+    border-style: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.focus-btn-1:hover {
+    background-color: blue;
+}
+
+/* Footer */
+footer {
+    border: 2px solid black;
+    background-color: white;
 }
